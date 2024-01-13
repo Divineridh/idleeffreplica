@@ -1,9 +1,9 @@
-import { useState } from 'react'
+import Trapping from '../../components/world3/trapping/Trapping'
 
 function World3Trapping() {
     return (
-        <div className="bg-slate-900">
-            <h1>w3 trapping testing</h1>
+        <div className="w-[1440px] bg-zinc-900 text-gray-100 flex flex-col p-8 mx-auto h-full">
+            <Trapping />
         </div>
     )
 }

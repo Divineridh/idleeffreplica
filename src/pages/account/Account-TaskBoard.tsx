@@ -1,9 +1,9 @@
-import { useState } from 'react'
+import TaskBoard from '../../components/account/taskboard/TaskBoard'
 
 function AccountTaskBoard() {
     return (
-        <div className="bg-slate-900">
-            <h1>account taskboard testing</h1>
+        <div className="w-[1440px] bg-zinc-900 text-gray-100 flex flex-col px-6 mx-auto h-full">
+            <TaskBoard />
         </div>
     )
 }

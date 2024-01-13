@@ -1,0 +1,111 @@
+import BB from '../../../classes/BloodBerzerker.png'
+import SB from '../../../classes/ShipBreaker.png'
+import BC from '../../../classes/Bubo.png'
+import DK from '../../../classes/DivineKnight.png'
+import ES from '../../../classes/ElementalSorcerer.png'
+import BM from '../../../classes/BeastMaster.png'
+import VW from '../../../classes/VoidWalker.png'
+import WorshipSkull7 from '../../../worshipSouls/WorshipSkull7.png'
+
+export default [
+    {
+        id: 0,
+        icon: BB,
+        player: "Divinerid",
+        currentCharge: 398,
+        maxCharge: 3061,
+        level: 79,
+        skull: WorshipSkull7,
+        chargeRate: 86,
+    },
+    {
+        id: 1,
+        icon: SB,
+        player: "Divinerid2",
+        currentCharge: 320,
+        maxCharge: 3061,
+        level: 78,
+        skull: WorshipSkull7,
+        chargeRate: 84,
+    },
+    {
+        id: 2,
+        icon: BC,
+        player: "Divinerid3",
+        currentCharge: 398,
+        maxCharge: 4146,
+        level: 80,
+        skull: WorshipSkull7,
+        chargeRate: 86,
+    },
+    {
+        id: 3,
+        icon: DK,
+        player: "Divinerid4",
+        currentCharge: 220,
+        maxCharge: 3142,
+        level: 80,
+        skull: WorshipSkull7,
+        chargeRate: 86,
+    },
+    {
+        id: 4,
+        icon: ES,
+        player: "Divinerid5",
+        currentCharge: 500,
+        maxCharge: 4146,
+        level: 84,
+        skull: WorshipSkull7,
+        chargeRate: 136,
+    },
+    {
+        id: 5,
+        icon: BM,
+        player: "Divinerid6",
+        currentCharge: 2235,
+        maxCharge: 3061,
+        level: 78,
+        skull: WorshipSkull7,
+        chargeRate: 84,
+    },
+    {
+        id: 6,
+        icon: DK,
+        player: "Divinerid7",
+        currentCharge: 220,
+        maxCharge: 3142,
+        level: 80,
+        skull: WorshipSkull7,
+        chargeRate: 86,
+    },
+    {
+        id: 7,
+        icon: ES,
+        player: "Divinerid8",
+        currentCharge: 500,
+        maxCharge: 4146,
+        level: 82,
+        skull: WorshipSkull7,
+        chargeRate: 136,
+    },
+    {
+        id: 8,
+        icon: VW,
+        player: "Divinerid9",
+        currentCharge: 1100,
+        maxCharge: 3142,
+        level: 80,
+        skull: WorshipSkull7,
+        chargeRate: 86,
+    },
+    {
+        id: 9,
+        icon: SB,
+        player: "Divinerid10",
+        currentCharge: 430,
+        maxCharge: 3061,
+        level: 72,
+        skull: WorshipSkull7,
+        chargeRate: 83,
+    },
+]

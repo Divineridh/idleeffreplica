@@ -30,6 +30,8 @@ import RawData from './pages/Raw-Data'
 import Layout from './components/Layout'
 import Footer from './components/Footer'
 
+import Backend from './pages/Backend'
+
 import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom"
 import { Dropdown, DropdownMenu, DropdownTrigger, DropdownItem, Button, Navbar, NavbarBrand, NavbarContent, NavbarItem, NextUIProvider } from "@nextui-org/react"
 
@@ -67,6 +69,7 @@ function App() {
               <Route path="account/dungeons" element={<AccountDungeons />} />
               <Route path="account/companions" element={<AccountCompanions />} />
               <Route path="raw-data" element={<RawData />} />
+              <Route path="backend" element={<Backend />} />
             </Route>
           </Routes>
             <Footer />

@@ -139,6 +139,9 @@ function Header() {
               <NavbarItem>
                 <Link to="/raw-data" className="hover:text-sky-600">Raw Data</Link>
               </NavbarItem>
+              <NavbarItem>
+                <Link to="/backend" className="hover:text-sky-600">Backend</Link>
+              </NavbarItem>
             </NavbarContent>
             <Divider orientation="vertical" />
             <NavbarContent justify="end">

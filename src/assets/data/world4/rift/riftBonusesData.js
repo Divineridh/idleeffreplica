@@ -1,12 +1,12 @@
-import RiftBonus0 from '../rift/RiftBonus0.png'
-import RiftBonus1 from '../rift/RiftBonus1.png'
-import RiftBonus2 from '../rift/RiftBonus2.png'
-import RiftBonus3 from '../rift/RiftBonus3.png'
-import RiftBonus4 from '../rift/RiftBonus4.png'
-import RiftBonus5 from '../rift/RiftBonus5.png'
-import RiftBonus6 from '../rift/RiftBonus6.png'
-import RiftBonus7 from '../rift/RiftBonus7.png'
-import RiftBonus8 from '../rift/RiftBonus8.png'
+import RiftBonus0 from '../../../rift/RiftBonus0.png'
+import RiftBonus1 from '../../../rift/RiftBonus1.png'
+import RiftBonus2 from '../../../rift/RiftBonus2.png'
+import RiftBonus3 from '../../../rift/RiftBonus3.png'
+import RiftBonus4 from '../../../rift/RiftBonus4.png'
+import RiftBonus5 from '../../../rift/RiftBonus5.png'
+import RiftBonus6 from '../../../rift/RiftBonus6.png'
+import RiftBonus7 from '../../../rift/RiftBonus7.png'
+import RiftBonus8 from '../../../rift/RiftBonus8.png'
 
 export default [
     {

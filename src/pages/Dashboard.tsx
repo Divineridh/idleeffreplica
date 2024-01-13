@@ -26,8 +26,11 @@ import SpaceMiniboss from '../assets/spaceMiniboss.png'
 import LibraryIcon from '../assets/libraryIcon.png'
 
 import { useState, useEffect } from 'react'
+import useCounterStore from '../zustand/store'
 
 function Dashboard() {
+
+    const { count, increment, decrement } = useCounterStore()
 
     const [time, setTime] = useState({
         days: Math.floor(Math.random() * 10),
@@ -71,6 +74,9 @@ function Dashboard() {
                 <div className="flex flex-row">
                     <h1 className="text-white text-4xl">Dashboard</h1>
                 </div>
+                <button className="bg-zinc-800 w-32 p-2" onClick={increment}>Increment</button>
+                <button className="bg-zinc-800 w-32 p-2 mt-2" onClick={decrement}>Decrement</button>
+                <div className="text-white">Zustand counter: {count}</div>
                 <div className="mt-6">
                     <div className="bg-neutral-800 p-6">
                         <span className="text-white text-lg">Account wide items</span>

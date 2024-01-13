@@ -1,9 +1,9 @@
-import { useState } from 'react'
+import Worship from '../../components/world3/worship/Worship'
 
 function World3Worship() {
     return (
-        <div className="bg-slate-900">
-            <h1>w3 worship testing</h1>
+        <div className="w-[1440px] bg-zinc-900 text-white flex flex-col p-8 mx-auto h-full">
+            <Worship />
         </div>
     )
 }
