@@ -16,8 +16,8 @@ export default [
         player: "Divinerid",
         level: 50,
         box: TrapBox7,
-        traps: {
-            trap0: {
+        traps: [
+             {
                 critter: Critter3,
                 remainingTime: 11,
                 type: "Royal",
@@ -25,7 +25,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap1: {
+            {
                 critter: Critter3,
                 remainingTime: 11,
                 type: "Royal",
@@ -33,7 +33,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap2: {
+            {
                 critter: Critter3,
                 remainingTime: 11,
                 type: "Royal",
@@ -41,7 +41,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap3: {
+            {
                 critter: Critter3,
                 remainingTime: 11,
                 type: "Royal",
@@ -49,7 +49,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap4: {
+            {
                 critter: Critter3,
                 remainingTime: 11,
                 type: "Royal",
@@ -57,7 +57,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap5: {
+            {
                 critter: Critter3,
                 remainingTime: 11,
                 type: "Royal",
@@ -65,7 +65,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap6: {
+            {
                 critter: Critter3,
                 remainingTime: 11,
                 type: "Royal",
@@ -73,7 +73,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap7: {
+            {
                 critter: Critter3,
                 remainingTime: 11,
                 type: "Royal",
@@ -81,15 +81,15 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-        }
+        ]
     },
     {
         id: 1,
         player: "Divinerid2",
         level: 50,
         box: TrapBox7,
-        traps: {
-            trap0: {
+        traps: [
+             {
                 critter: Critter4,
                 remainingTime: 11,
                 type: "Royal",
@@ -97,7 +97,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap1: {
+            {
                 critter: Critter4,
                 remainingTime: 11,
                 type: "Royal",
@@ -105,7 +105,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap2: {
+            {
                 critter: Critter4,
                 remainingTime: 11,
                 type: "Royal",
@@ -113,7 +113,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap3: {
+            {
                 critter: Critter4,
                 remainingTime: 11,
                 type: "Royal",
@@ -121,7 +121,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap4: {
+            {
                 critter: Critter4,
                 remainingTime: 11,
                 type: "Royal",
@@ -129,7 +129,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap5: {
+            {
                 critter: Critter4,
                 remainingTime: 11,
                 type: "Royal",
@@ -137,7 +137,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap6: {
+            {
                 critter: Critter4,
                 remainingTime: 11,
                 type: "Royal",
@@ -145,7 +145,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap7: {
+            {
                 critter: Critter4,
                 remainingTime: 11,
                 type: "Royal",
@@ -153,15 +153,15 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-        }
+        ]
     },
     {
         id: 2,
         player: "Divinerid3",
         level: 50,
         box: TrapBox7,
-        traps: {
-            trap0: {
+        traps: [
+             {
                 critter: Critter5,
                 remainingTime: 11,
                 type: "Royal",
@@ -169,7 +169,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap1: {
+            {
                 critter: Critter5,
                 remainingTime: 11,
                 type: "Royal",
@@ -177,7 +177,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap2: {
+            {
                 critter: Critter5,
                 remainingTime: 11,
                 type: "Royal",
@@ -185,7 +185,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap3: {
+            {
                 critter: Critter5,
                 remainingTime: 11,
                 type: "Royal",
@@ -193,7 +193,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap4: {
+            {
                 critter: Critter5,
                 remainingTime: 11,
                 type: "Royal",
@@ -201,7 +201,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap5: {
+            {
                 critter: Critter5,
                 remainingTime: 11,
                 type: "Royal",
@@ -209,7 +209,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap6: {
+            {
                 critter: Critter5,
                 remainingTime: 11,
                 type: "Royal",
@@ -217,7 +217,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap7: {
+            {
                 critter: Critter5,
                 remainingTime: 11,
                 type: "Royal",
@@ -225,15 +225,15 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-        }
+        ]
     },
     {
         id: 3,
         player: "Divinerid4",
         level: 51,
         box: TrapBox7,
-        traps: {
-            trap0: {
+        traps: [
+             {
                 critter: Critter6,
                 remainingTime: 11,
                 type: "Royal",
@@ -241,7 +241,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap1: {
+            {
                 critter: Critter6,
                 remainingTime: 11,
                 type: "Royal",
@@ -249,7 +249,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap2: {
+            {
                 critter: Critter6,
                 remainingTime: 11,
                 type: "Royal",
@@ -257,7 +257,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap3: {
+            {
                 critter: Critter6,
                 remainingTime: 11,
                 type: "Royal",
@@ -265,7 +265,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap4: {
+            {
                 critter: Critter6,
                 remainingTime: 11,
                 type: "Royal",
@@ -273,7 +273,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap5: {
+            {
                 critter: Critter6,
                 remainingTime: 11,
                 type: "Royal",
@@ -281,7 +281,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap6: {
+            {
                 critter: Critter6,
                 remainingTime: 11,
                 type: "Royal",
@@ -289,7 +289,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap7: {
+            {
                 critter: Critter6,
                 remainingTime: 11,
                 type: "Royal",
@@ -297,15 +297,15 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-        }
+        ]
     },
     {
         id: 4,
         player: "Divinerid5",
         level: 51,
         box: TrapBox7,
-        traps: {
-            trap0: {
+        traps: [
+             {
                 critter: Critter7,
                 remainingTime: 11,
                 type: "Royal",
@@ -313,7 +313,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap1: {
+            {
                 critter: Critter7,
                 remainingTime: 11,
                 type: "Royal",
@@ -321,7 +321,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap2: {
+            {
                 critter: Critter7,
                 remainingTime: 11,
                 type: "Royal",
@@ -329,7 +329,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap3: {
+            {
                 critter: Critter7,
                 remainingTime: 11,
                 type: "Royal",
@@ -337,7 +337,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap4: {
+            {
                 critter: Critter7,
                 remainingTime: 11,
                 type: "Royal",
@@ -345,7 +345,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap5: {
+            {
                 critter: Critter7,
                 remainingTime: 11,
                 type: "Royal",
@@ -353,7 +353,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap6: {
+            {
                 critter: Critter7,
                 remainingTime: 11,
                 type: "Royal",
@@ -361,7 +361,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap7: {
+            {
                 critter: Critter7,
                 remainingTime: 11,
                 type: "Royal",
@@ -369,15 +369,15 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-        }
+        ]
     },
     {
         id: 5,
         player: "Divinerid6",
         level: 51,
         box: TrapBox7,
-        traps: {
-            trap0: {
+        traps: [
+            {
                 critter: Critter8,
                 remainingTime: 11,
                 type: "Royal",
@@ -385,7 +385,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap1: {
+            {
                 critter: Critter8,
                 remainingTime: 11,
                 type: "Royal",
@@ -393,7 +393,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap2: {
+            {
                 critter: Critter8,
                 remainingTime: 11,
                 type: "Royal",
@@ -401,7 +401,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap3: {
+            {
                 critter: Critter8,
                 remainingTime: 11,
                 type: "Royal",
@@ -409,7 +409,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap4: {
+            {
                 critter: Critter8,
                 remainingTime: 11,
                 type: "Royal",
@@ -417,7 +417,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap5: {
+            {
                 critter: Critter8,
                 remainingTime: 11,
                 type: "Royal",
@@ -425,7 +425,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap6: {
+            {
                 critter: Critter8,
                 remainingTime: 11,
                 type: "Royal",
@@ -433,7 +433,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap7: {
+            {
                 critter: Critter8,
                 remainingTime: 11,
                 type: "Royal",
@@ -441,15 +441,15 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-        }
+        ]
     },
     {
         id: 6,
         player: "Divinerid7",
         level: 51,
         box: TrapBox7,
-        traps: {
-            trap0: {
+        traps: [
+            {
                 critter: Critter9,
                 remainingTime: 11,
                 type: "Royal",
@@ -457,7 +457,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap1: {
+            {
                 critter: Critter9,
                 remainingTime: 11,
                 type: "Royal",
@@ -465,7 +465,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap2: {
+            {
                 critter: Critter9,
                 remainingTime: 11,
                 type: "Royal",
@@ -473,7 +473,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap3: {
+            {
                 critter: Critter9,
                 remainingTime: 11,
                 type: "Royal",
@@ -481,7 +481,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap4: {
+            {
                 critter: Critter9,
                 remainingTime: 11,
                 type: "Royal",
@@ -489,7 +489,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap5: {
+            {
                 critter: Critter9,
                 remainingTime: 11,
                 type: "Royal",
@@ -497,7 +497,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap6: {
+            {
                 critter: Critter9,
                 remainingTime: 11,
                 type: "Royal",
@@ -505,7 +505,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap7: {
+            {
                 critter: Critter9,
                 remainingTime: 11,
                 type: "Royal",
@@ -513,15 +513,15 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-        }
+        ]
     },
     {
         id: 7,
         player: "Divinerid8",
         level: 50,
         box: TrapBox7,
-        traps: {
-            trap0: {
+        traps: [
+            {
                 critter: Critter1,
                 remainingTime: 11,
                 type: "Royal",
@@ -529,7 +529,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap1: {
+            {
                 critter: Critter1,
                 remainingTime: 11,
                 type: "Royal",
@@ -537,7 +537,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap2: {
+            {
                 critter: Critter1,
                 remainingTime: 11,
                 type: "Royal",
@@ -545,7 +545,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap3: {
+            {
                 critter: Critter1,
                 remainingTime: 11,
                 type: "Royal",
@@ -553,7 +553,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap4: {
+            {
                 critter: Critter1,
                 remainingTime: 11,
                 type: "Royal",
@@ -561,7 +561,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap5: {
+            {
                 critter: Critter1,
                 remainingTime: 11,
                 type: "Royal",
@@ -569,7 +569,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap6: {
+            {
                 critter: Critter1,
                 remainingTime: 11,
                 type: "Royal",
@@ -577,7 +577,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap7: {
+            {
                 critter: Critter1,
                 remainingTime: 11,
                 type: "Royal",
@@ -585,87 +585,87 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-        }
+        ]
     },
     {
         id: 8,
         player: "Divinerid9",
         level: 57,
         box: TrapBox7,
-        traps: {
-            trap0: {
+        traps: [
+            {
                 critter: Critter10,
-                remainingTime: 11,
-                type: "Royal",
-                originalDuration: "2 days",
-                multiplier1: "x70 Qty",
-                multiplier2: "x125 Shiny", 
+                remainingTime: 16,
+                type: "Natural",
+                originalDuration: "20 hours",
+                multiplier1: "x0 Qty",
+                multiplier2: "x75 Exp", 
             },
-            trap1: {
+            {
                 critter: Critter10,
-                remainingTime: 11,
-                type: "Royal",
-                originalDuration: "2 days",
-                multiplier1: "x70 Qty",
-                multiplier2: "x125 Shiny", 
+                remainingTime: 16,
+                type: "Natural",
+                originalDuration: "20 hours",
+                multiplier1: "x0 Qty",
+                multiplier2: "x75 Exp", 
             },
-            trap2: {
+            {
                 critter: Critter10,
-                remainingTime: 11,
-                type: "Royal",
-                originalDuration: "2 days",
-                multiplier1: "x70 Qty",
-                multiplier2: "x125 Shiny", 
+                remainingTime: 16,
+                type: "Natural",
+                originalDuration: "20 hours",
+                multiplier1: "x0 Qty",
+                multiplier2: "x75 Exp", 
             },
-            trap3: {
+            {
                 critter: Critter10,
-                remainingTime: 11,
-                type: "Royal",
-                originalDuration: "2 days",
-                multiplier1: "x70 Qty",
-                multiplier2: "x125 Shiny", 
+                remainingTime: 16,
+                type: "Natural",
+                originalDuration: "20 hours",
+                multiplier1: "x0 Qty",
+                multiplier2: "x75 Exp", 
             },
-            trap4: {
+            {
                 critter: Critter10,
-                remainingTime: 11,
-                type: "Royal",
-                originalDuration: "2 days",
-                multiplier1: "x70 Qty",
-                multiplier2: "x125 Shiny", 
+                remainingTime: 16,
+                type: "Natural",
+                originalDuration: "20 hours",
+                multiplier1: "x0 Qty",
+                multiplier2: "x75 Exp", 
             },
-            trap5: {
+            {
                 critter: Critter10,
-                remainingTime: 11,
-                type: "Royal",
-                originalDuration: "2 days",
-                multiplier1: "x70 Qty",
-                multiplier2: "x125 Shiny", 
+                remainingTime: 16,
+                type: "Natural",
+                originalDuration: "20 hours",
+                multiplier1: "x0 Qty",
+                multiplier2: "x75 Exp", 
             },
-            trap6: {
+            {
                 critter: Critter10,
-                remainingTime: 11,
-                type: "Royal",
-                originalDuration: "2 days",
-                multiplier1: "x70 Qty",
-                multiplier2: "x125 Shiny", 
+                remainingTime: 16,
+                type: "Natural",
+                originalDuration: "20 hours",
+                multiplier1: "x0 Qty",
+                multiplier2: "x75 Exp", 
             },
-            trap7: {
+            {
                 critter: Critter10,
-                remainingTime: 11,
-                type: "Royal",
-                originalDuration: "2 days",
-                multiplier1: "x70 Qty",
-                multiplier2: "x125 Shiny", 
+                remainingTime: 16,
+                type: "Natural",
+                originalDuration: "20 hours",
+                multiplier1: "x0 Qty",
+                multiplier2: "x75 Exp", 
             },
-        }
+        ]
     },
     {
         id: 9,
         player: "Divinerid10",
         level: 51,
         box: TrapBox7,
-        traps: {
-            trap0: {
+        traps: [
+            {
                 critter: Critter10,
                 remainingTime: 11,
                 type: "Royal",
@@ -673,7 +673,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap1: {
+            {
                 critter: Critter10,
                 remainingTime: 11,
                 type: "Royal",
@@ -681,7 +681,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap2: {
+            {
                 critter: Critter10,
                 remainingTime: 11,
                 type: "Royal",
@@ -689,7 +689,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap3: {
+            {
                 critter: Critter10,
                 remainingTime: 11,
                 type: "Royal",
@@ -697,7 +697,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap4: {
+            {
                 critter: Critter10,
                 remainingTime: 11,
                 type: "Royal",
@@ -705,7 +705,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap5: {
+            {
                 critter: Critter10,
                 remainingTime: 11,
                 type: "Royal",
@@ -713,7 +713,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap6: {
+            {
                 critter: Critter10,
                 remainingTime: 11,
                 type: "Royal",
@@ -721,7 +721,7 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-            trap7: {
+            {
                 critter: Critter10,
                 remainingTime: 11,
                 type: "Royal",
@@ -729,6 +729,6 @@ export default [
                 multiplier1: "x70 Qty",
                 multiplier2: "x125 Shiny", 
             },
-        }
+        ]
     },
 ]
