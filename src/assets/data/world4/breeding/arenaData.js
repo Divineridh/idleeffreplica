@@ -1,0 +1,98 @@
+export default [
+    {
+        id: 0,
+        wave: 2,
+        bonus: "Unlocks 3rd Pet Battle Slot",
+        unlocked: true,
+    },
+    {
+        id: 0,
+        wave: 5,
+        bonus: "+25% Library Vip Membership",
+        unlocked: true,
+    },
+    {
+        id: 0,
+        wave: 8,
+        bonus: "1.20X Total Damage",
+        unlocked: true,
+    },
+    {
+        id: 0,
+        wave: 12,
+        bonus: "New Post Office Upgrade Crate",
+        unlocked: true,
+    },
+    {
+        id: 0,
+        wave: 15,
+        bonus: "Unlocks 4th Pet Battle Slot",
+        unlocked: true,
+    },
+    {
+        id: 0,
+        wave: 20,
+        bonus: "1.5X Monster Cash",
+        unlocked: true,
+    },
+    {
+        id: 0,
+        wave: 25,
+        bonus: "New Post Office Upgrade Crate",
+        unlocked: true,
+    },
+    {
+        id: 0,
+        wave: 35,
+        bonus: "-50% Kitchen Upgrade Costs",
+        unlocked: true,
+    },
+    {
+        id: 0,
+        wave: 50,
+        bonus: "Unlocks 5th Pet Battle Slot",
+        unlocked: true,
+    },
+    {
+        id: 0,
+        wave: 65,
+        bonus: "New Post Office Upgrade Crate",
+        unlocked: true,
+    },
+    {
+        id: 0,
+        wave: 80,
+        bonus: "+60% Library Vip Membership",
+        unlocked: true,
+    },
+    {
+        id: 0,
+        wave: 100,
+        bonus: "Can Equip 3rd Large Bubble",
+        unlocked: true,
+    },
+    {
+        id: 0,
+        wave: 125,
+        bonus: "Unlocks 6th Pet Battle Slot",
+        unlocked: true,
+    },
+    {
+        id: 0,
+        wave: 150,
+        bonus: "+20% Line Width For All Players",
+        unlocked: true,
+    },
+    {
+        id: 0,
+        wave: 175,
+        bonus: "2X Monster Cash",
+        unlocked: false,
+    },
+    {
+        id: 0,
+        wave: 200,
+        bonus: "1.40X Total Damage",
+        unlocked: false,
+    },
+]

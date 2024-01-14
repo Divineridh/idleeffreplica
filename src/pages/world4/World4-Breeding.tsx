@@ -1,9 +1,9 @@
-import { useState } from 'react'
+import Breeding from '../../components/world4/breeding/Breeding'
 
 function World4Breeding() {
     return (
-        <div className="bg-slate-900">
-            <h1>w4 breeding testing</h1>
+        <div className="w-[1440px] bg-zinc-900 text-gray-100 flex flex-col p-8 mx-auto h-full">
+            <Breeding />
         </div>
     )
 }
