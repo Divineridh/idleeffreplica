@@ -17,7 +17,7 @@ import World4Rift from './pages/world4/World4-Rift'
 import World5Divinity from './pages/world5/World5-Divinity'
 import World5Gaming from './pages/world5/World5-Gaming'
 import World5Sailing from './pages/world5/World5-Sailing'
-import Players from './pages/Players'
+import PlayersPage from './pages/PlayersPage'
 import AccountCompanions from './pages/account/Account-Companions'
 import AccountConstellations from './pages/account/Account-Constellations'
 import AccountDungeons from './pages/account/Account-Dungeons'
@@ -59,7 +59,7 @@ function App() {
               <Route path="world-5/divinity" element={<World5Divinity />} />
               <Route path="world-5/sailing" element={<World5Sailing />} />
               <Route path="world-5/gaming" element={<World5Gaming />} />
-              <Route path="players" element={<Players />} />
+              <Route path="players" element={<PlayersPage />} />
               <Route path="account/task-board" element={<AccountTaskBoard />} />
               <Route path="account/constellations" element={<AccountConstellations />} />
               <Route path="account/quests" element={<AccountQuests />} />
