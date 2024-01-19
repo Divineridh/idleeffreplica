@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Tabs, Tab, Button, Image } from '@nextui-org/react'
+import { Tabs, Tab, Button, Image, Navbar } from '@nextui-org/react'
 
 import BB from '../../assets/classes/BloodBerzerker.png'
 const BBicon = <Image width={23} src={BB} />
@@ -19,14 +19,16 @@ const p1Item = p1stats.map(item => {
     )
 })
 
+// const [activePlayer, setActivePlayer] = useState("Divinerid")
+
+
 
 function Players() {
     return (
         <div className="w-[1440px] bg-zinc-900 text-white flex flex-col px-5 mx-auto h-full">
-            <div className="flex flex-row text-white justify-center gap-1">
-                <Button radius="none" color="primary" variant="bordered" startContent={BBicon}>Divinerid</Button>
-                <Button radius="none" color="primary" variant="bordered" startContent={SBicon}>Divinerid2</Button>
-            </div>
+            <ul className="flex flex-row text-white justify-center gap-1">
+                <li className="">Divinerid</li>
+            </ul>
             <Tabs 
                 radius="none"
                 variant="bordered"
@@ -34,7 +36,7 @@ function Players() {
                     tabList: "flex flex-col w-1/4 border-0 bg-zinc-900 p-6 h-screen",
                     tabContent: "text-gray-100",
                     cursor: "bg-zinc-800 text-gray-100",
-                    base: " shadow-2xl flex flex-row h-screen mt-4",
+                    base: "shadow-2xl flex flex-row h-screen mt-4",
                     panel: "mt-12 p-4 pt-8 w-1/2 bg-zinc-800"
             }}>
                 <Tab key="randomStats" title="Random Stats">
