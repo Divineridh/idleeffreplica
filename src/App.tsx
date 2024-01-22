@@ -73,8 +73,8 @@ function App() {
             </Route>
           </Routes>
             <Footer />
-    </NextUIProvider>
-      </div>
+      </NextUIProvider>
+    </div>
   )
 }
 

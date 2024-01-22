@@ -1,12 +1,13 @@
 import { Dropdown, DropdownMenu, DropdownTrigger, DropdownItem, Button, Navbar, NavbarBrand, NavbarContent, NavbarItem, Image, Divider } from "@nextui-org/react"
 import { Link } from 'react-router-dom'
 import ArrowDown from '../assets/menu-down.png'
+import Logo from '../assets/logo.svg'
 
 function Header() {
     return (
       <div className="flex flex-col">
         <div className="flex flex-row bg-neutral-800 border-b-1 border-gray-700 justify-around items-center p-2">
-          <h1 className="text-gray-300 font-semibold">IdleonEff Replica</h1>  
+          <Image radius="none" src={Logo} />
           <Button color="primary" variant="flat">Sign Up</Button>
         </div>
         <Navbar className="h-14 bg-neutral-800 text-gray-300 font-semibold border-b-1 border-gray-700">

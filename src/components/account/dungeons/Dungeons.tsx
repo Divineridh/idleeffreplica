@@ -3,6 +3,8 @@ import dungeonsData from '../../../assets/data/account/dungeons/dungeonsData'
 import { Image, Tabs, Tab } from '@nextui-org/react'
 
 import Items from './Items'
+import Passives from './Passives'
+import Traits from './Traits'
 
 function Dungeons() {
     return (
@@ -45,8 +47,12 @@ function Dungeons() {
                 <Tab title="Items">
                     <Items />
                 </Tab>
-                <Tab title="Passives"></Tab>
-                <Tab title="Traits"></Tab>
+                <Tab title="Passives">
+                    <Passives />
+                </Tab>
+                <Tab title="Traits">
+                    <Traits />
+                </Tab>
             </Tabs>
         </div>
     )
