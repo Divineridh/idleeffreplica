@@ -2,9 +2,9 @@ import { Checkbox, Tooltip, Image, Divider } from '@nextui-org/react'
 import InfoIcon from '../../assets/InfoIcon.png'
 import CombatStamp1 from '../../assets/CombatStamp1.png'
 
-import StampsAData from '../../assets/data/stampsA-data.js'
-import StampsBData from '../../assets/data/stampsB-data.js'
-import StampsCData from '../../assets/data/stampsC-data.js'
+import StampsAData from '../../assets/data/world1/stamps/stampsA-data.js'
+import StampsBData from '../../assets/data/world1/stamps/stampsB-data.js'
+import StampsCData from '../../assets/data/world1/stamps/stampsC-data.js'
 import StampCard from '../../components/world1/stamps/StampCard'
 
 const StampsAItems = StampsAData.map(item => {

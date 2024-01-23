@@ -1,4 +1,4 @@
-import captainsData from '../../../assets/data/captainsData'
+import captainsData from '../../../assets/data/world5/sailing/captainsData'
 import CaptainCard from './CaptainCard'
 
 const captainItems = captainsData.map(captain => {

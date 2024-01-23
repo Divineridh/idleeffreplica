@@ -1,5 +1,5 @@
-import spicesData from '../../../assets/data/spicesData'
-import mealsData from '../../../assets/data/mealsData'
+import spicesData from '../../../assets/data/world4/breeding/spicesData'
+import mealsData from '../../../assets/data/world4/cooking/mealsData'
 
 import SpiceCard from './SpiceCard'
 import MealCard from './MealCard'

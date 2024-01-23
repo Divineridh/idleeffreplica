@@ -1,10 +1,10 @@
 import { Tabs, Tab } from '@nextui-org/react'
 
-import labBonusesData from '../../../assets/data/labBonusesData'
+import labBonusesData from '../../../assets/data/world4/lab/labBonusesData'
 import LabCard from './LabCard'
-import labTubesData from '../../../assets/data/labTubesData'
+import labTubesData from '../../../assets/data/world4/lab/labTubesData'
 import PlayerTube from './PlayerTube'
-import labJewelsData from '../../../assets/data/labJewelsData'
+import labJewelsData from '../../../assets/data/world4/lab/labJewelsData'
 import JewelCard from './JewelCard'
 
 const labBonusItems = labBonusesData.map(bonus => {

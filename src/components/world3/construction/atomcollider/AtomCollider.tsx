@@ -2,7 +2,7 @@ import { Image, Checkbox } from '@nextui-org/react'
 
 import Particle from '../../../../assets/particles/Particle.png'
 import AtomCard from './AtomCard'
-import AtomData from '../../../../assets/data/atomColliderData'
+import AtomData from '../../../../assets/data/world3/construction/atomColliderData'
 
 const atomItems = AtomData.map(atom => {
     return (

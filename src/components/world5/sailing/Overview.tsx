@@ -1,4 +1,4 @@
-import overviewData from '../../../assets/data/overviewData'
+import overviewData from '../../../assets/data/world5/sailing/overviewData'
 import OverviewCard from './OverviewCard'
 
 const overviewItems = overviewData.map(item => {

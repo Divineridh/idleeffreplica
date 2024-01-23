@@ -1,4 +1,4 @@
-import godsData from '../../../assets/data/godsData'
+import godsData from '../../../assets/data/world5/divinity/godsData'
 import GodCard from './GodCard'
 
 const godItems = godsData.map(god => {

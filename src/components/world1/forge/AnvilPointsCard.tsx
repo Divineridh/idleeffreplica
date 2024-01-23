@@ -10,7 +10,7 @@ interface propTypes {
     heldAmount: number
 }
 
-import AnvilPointsData from '../../../assets/data/anvil-points-data.js'
+import AnvilPointsData from '../../../assets/data/world1/anvil-points-data.js'
 
 function AnvilPointsCard(props: propTypes) {
 

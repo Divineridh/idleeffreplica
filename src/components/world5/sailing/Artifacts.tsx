@@ -1,6 +1,6 @@
 import {Checkbox} from '@nextui-org/react'
 
-import artifactsData from '../../../assets/data/artifactsData.js'
+import artifactsData from '../../../assets/data/world5/sailing/artifactsData.js'
 import ArtifactCard from './ArtifactCard'
 
 const artifactItems = artifactsData.map(artifact => {

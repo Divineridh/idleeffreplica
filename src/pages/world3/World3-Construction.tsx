@@ -4,10 +4,10 @@ import DivineKnight from '../../assets/classes/DivineKnight.png'
 import SkillRefinery from '../../assets/skills/SkillRefinery.png'
 import InfoIcon from '../../assets/InfoIcon.png'
 
-import SaltData from '../../assets/data/salts-data.js'
+import SaltData from '../../assets/data/world3/construction/salts-data.js'
 import SaltCard from '../../components/world3/construction/refinery/SaltCard'
 
-import SaltLickData from '../../assets/data/saltlick-data.js'
+import SaltLickData from '../../assets/data/world3/construction/saltlick-data.js'
 import SaltLickCard from '../../components/world3/construction/saltlick/SaltLickCard'
 
 const saltItems = SaltData.map(item => {

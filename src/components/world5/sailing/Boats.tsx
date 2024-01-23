@@ -1,4 +1,4 @@
-import boatsData from '../../../assets/data/boatsData'
+import boatsData from '../../../assets/data/world5/sailing/boatsData'
 import BoatCard from './BoatCard'
 
 const boatItems = boatsData.map(boat => {

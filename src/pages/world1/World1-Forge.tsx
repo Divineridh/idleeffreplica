@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Tabs, Tab } from '@nextui-org/react'
 
-import slotsData from "../../assets/data/forge-slot-data"
+import slotsData from "../../assets/data/world1/forge-slot-data"
 import ForgeSlot from '../../components/world1/forge/ForgeSlot'
 
 function World1Forge() {

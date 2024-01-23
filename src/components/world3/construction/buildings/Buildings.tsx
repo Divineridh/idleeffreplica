@@ -1,6 +1,6 @@
 import { Checkbox } from '@nextui-org/react'
 
-import BuildingsData from '../../../../assets/data/buildingsData'
+import BuildingsData from '../../../../assets/data/world3/construction/buildingsData'
 import BuildingCard from './BuildingCard'
 const buildingItems = BuildingsData.map(building => {
     return (

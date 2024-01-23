@@ -1,4 +1,4 @@
-import islandsData from '../../../assets/data/islandsData'
+import islandsData from '../../../assets/data/world5/sailing/islandsData'
 import IslandCard from './IslandCard'
 
 const islandItems = islandsData.map(island => {

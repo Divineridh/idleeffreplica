@@ -4,7 +4,7 @@ import VoidSkill from '../../../../assets/skills/UISkillIcon32.png'
 import Artifact4 from '../../../../assets/sailing/Arti4.png'
 
 import PrinterSlot from './PrinterSlot'
-import printerSamplesData from '../../../../assets/data/printerSamplesData.js'
+import printerSamplesData from '../../../../assets/data/world3/construction/printerSamplesData.js'
 const char1Samples = printerSamplesData.filter(item => item.char === 1)
 const char1SamplesItems = char1Samples.map(item => {
     return (

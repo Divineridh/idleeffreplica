@@ -1,5 +1,5 @@
 import ArcadeCard from '../../components/world2/arcade/ArcadeCard'
-import arcadeData from '../../assets/data/arcade-data.js'
+import arcadeData from '../../assets/data/world2/arcade-data.js'
 
 const arcadeItems = arcadeData.map(item => {
     return (

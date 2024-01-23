@@ -1,6 +1,6 @@
 import {Tabs, Tab} from '@nextui-org/react'
 
-import lootPileData from '../../../assets/data/lootPileData'
+import lootPileData from '../../../assets/data/world5/sailing/lootPileData'
 import LootPileCard from './LootPileCard'
 
 const lootPileItems = lootPileData.map(item => {

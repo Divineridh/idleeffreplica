@@ -1,4 +1,4 @@
-import ShrinesData from '../../../../assets/data/shrinesData'
+import ShrinesData from '../../../../assets/data/world3/construction/shrinesData'
 import ShrineCard from './ShrineCard'
 
 const shrineItems = ShrinesData.map(shrine => {

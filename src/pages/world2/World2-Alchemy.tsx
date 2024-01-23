@@ -3,14 +3,14 @@ import { Tabs, Tab, Checkbox, Select, SelectItem } from '@nextui-org/react'
 const discounts = ['No discount', '25%', '43.75%', '57.81%', '68.36%', '76.27%', '82.20%', '86.65%', '90%']
 
 import Bubble from '../../components/world2/alchemy/Bubble'
-import OrangeBubblesData from '../../assets/data/orange-bubbles-data.js'
-import GreenBubblesData from '../../assets/data/green-bubbles-data.js'
-import PurpleBubblesData from '../../assets/data/purple-bubbles-data.js'
-import YellowBubblesData from '../../assets/data/yellow-bubbles-data.js'
+import OrangeBubblesData from '../../assets/data/world2/alchemy/orange-bubbles-data.js'
+import GreenBubblesData from '../../assets/data/world2/alchemy/green-bubbles-data.js'
+import PurpleBubblesData from '../../assets/data/world2/alchemy/purple-bubbles-data.js'
+import YellowBubblesData from '../../assets/data/world2/alchemy/yellow-bubbles-data.js'
 import Vial from '../../components/world2/alchemy/Vial'
-import VialsData from '../../assets/data/vials-data.js'
+import VialsData from '../../assets/data/world2/alchemy/vials-data.js'
 import Sigil from '../../components/world2/alchemy/Sigil'
-import SigilsData from '../../assets/data/alchemy-sigils-data.js'
+import SigilsData from '../../assets/data/world2/alchemy/alchemy-sigils-data.js'
 
 const orangeItems = OrangeBubblesData.map(item => {
     return (

@@ -1,5 +1,5 @@
 import DeathNoteCard from './DeathNoteCard';
-import DeathnoteData from '../../../../assets/data/deathnoteData'
+import DeathnoteData from '../../../../assets/data/world3/construction/deathnoteData'
 
 const deathnoteW1 = DeathnoteData.filter(item => item.world === 1)
 const deathnoteW1Items = deathnoteW1.map(item => {

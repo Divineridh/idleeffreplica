@@ -1,4 +1,4 @@
-import alignmentData from '../../../assets/data/alignmentData'
+import alignmentData from '../../../assets/data/world5/divinity/alignmentData'
 import AlignmentCard from './AlignmentCard'
 
 const alignmentItems = alignmentData.map(item => {
