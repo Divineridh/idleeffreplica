@@ -1,30 +1,58 @@
-# React + TypeScript + Vite
+<a name="readme-top"></a>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br />
+<div align="center">
 
-Currently, two official plugins are available:
+  <h3 align="center">Idleon Efficiency Replica</h3>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <p align="center">
+    A replica of the Idleon Efficiency site.
+    <br />
+  </p>
+</div>
 
-## Expanding the ESLint configuration
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-- Configure the top-level `parserOptions` property like this:
+This project is a replica of <a href="https://www.idleonefficiency.com">Idleon Efficiency</a> with the purpose of gaining experience in web design. 
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+All elements are originally from the original site, all I've done is recreate the look and feel of it by trying to replicate it manually.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
+* [![Vite][Vite]][https://vitejs.dev/]
+* [![React][React.js]][https://react.dev/]
+* [![React Router][React Router]][https://reactrouter.com/en/main]
+* [![Tailwind][Tailwind CSS]][https://tailwindcss.com/]
+* [![Next UI][Next UI]][https://nextui.org/]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
