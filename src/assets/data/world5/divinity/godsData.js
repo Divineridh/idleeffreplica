@@ -12,7 +12,7 @@ import DivGod9 from '../../../divinity/DivGod9.png';
 export default [
     {
         id: 0,
-        icon: DivGod0,
+        icon: '../../../divinity/DivGod0.png',
         name: 'Snehebatu',
         linkBonus: "+30% AFK Gains for all activities!",
         minorLinkBonus: "+70% accuracy and +70% defence",

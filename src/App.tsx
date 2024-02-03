@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 
 import Dashboard from './pages/dashboard'
@@ -32,49 +31,46 @@ import Footer from './components/Footer'
 
 import Backend from './pages/Backend'
 
-import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom"
-import { Dropdown, DropdownMenu, DropdownTrigger, DropdownItem, Button, Navbar, NavbarBrand, NavbarContent, NavbarItem, NextUIProvider } from "@nextui-org/react"
+import { Routes, Route, useNavigate } from "react-router-dom"
+import { NextUIProvider } from "@nextui-org/react"
 
 function App() {
   const navigate = useNavigate()
 
   return (
-    <div className="bg-zinc-900 h-full flex flex-col flex-nowrap">
-        <NextUIProvider navigate={navigate}>
-          <Routes>
-            <Route element={<Layout />}>
-              <Route path="/" element={<Dashboard />} />
-              <Route path="world-1/stamps" element={<World1Stamps />} />
-              <Route path="world-1/forge" element={<World1Forge />} />
-              <Route path="world-1/anvil" element={<World1Anvil />} />
-              <Route path="world-2/alchemy" element={<World2Alchemy />} />
-              <Route path="world-2/arcade" element={<World2Arcade />} />
-              <Route path="world-3/construction" element={<World3Construction />} />
-              <Route path="world-3/worship" element={<World3Worship />} />
-              <Route path="world-3/trapping" element={<World3Trapping />} />
-              <Route path="world-4/cooking" element={<World4Cooking />} />
-              <Route path="world-4/lab" element={<World4Lab />} />
-              <Route path="world-4/breeding" element={<World4Breeding />} />
-              <Route path="world-4/rift" element={<World4Rift />} />
-              <Route path="world-5/divinity" element={<World5Divinity />} />
-              <Route path="world-5/sailing" element={<World5Sailing />} />
-              <Route path="world-5/gaming" element={<World5Gaming />} />
-              <Route path="players" element={<PlayersPage />} />
-              <Route path="account/task-board" element={<AccountTaskBoard />} />
-              <Route path="account/constellations" element={<AccountConstellations />} />
-              <Route path="account/quests" element={<AccountQuests />} />
-              <Route path="account/slab" element={<AccountSlab />} />
-              <Route path="account/storage" element={<AccountStorage />} />
-              <Route path="account/obols" element={<AccountObols />} />
-              <Route path="account/dungeons" element={<AccountDungeons />} />
-              <Route path="account/companions" element={<AccountCompanions />} />
-              <Route path="raw-data" element={<RawData />} />
-              <Route path="backend" element={<Backend />} />
-            </Route>
-          </Routes>
-            <Footer />
-      </NextUIProvider>
-    </div>
+      <NextUIProvider navigate={navigate}>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="world-1/stamps" element={<World1Stamps />} />
+            <Route path="world-1/forge" element={<World1Forge />} />
+            <Route path="world-1/anvil" element={<World1Anvil />} />
+            <Route path="world-2/alchemy" element={<World2Alchemy />} />
+            <Route path="world-2/arcade" element={<World2Arcade />} />
+            <Route path="world-3/construction" element={<World3Construction />} />
+            <Route path="world-3/worship" element={<World3Worship />} />
+            <Route path="world-3/trapping" element={<World3Trapping />} />
+            <Route path="world-4/cooking" element={<World4Cooking />} />
+            <Route path="world-4/lab" element={<World4Lab />} />
+            <Route path="world-4/breeding" element={<World4Breeding />} />
+            <Route path="world-4/rift" element={<World4Rift />} />
+            <Route path="world-5/divinity" element={<World5Divinity />} />
+            <Route path="world-5/sailing" element={<World5Sailing />} />
+            <Route path="world-5/gaming" element={<World5Gaming />} />
+            <Route path="players" element={<PlayersPage />} />
+            <Route path="account/task-board" element={<AccountTaskBoard />} />
+            <Route path="account/constellations" element={<AccountConstellations />} />
+            <Route path="account/quests" element={<AccountQuests />} />
+            <Route path="account/slab" element={<AccountSlab />} />
+            <Route path="account/storage" element={<AccountStorage />} />
+            <Route path="account/obols" element={<AccountObols />} />
+            <Route path="account/dungeons" element={<AccountDungeons />} />
+            <Route path="account/companions" element={<AccountCompanions />} />
+            <Route path="raw-data" element={<RawData />} />
+            <Route path="backend" element={<Backend />} />
+          </Route>
+        </Routes>
+    </NextUIProvider>
   )
 }
 
