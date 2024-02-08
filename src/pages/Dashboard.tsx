@@ -28,6 +28,18 @@ import LibraryIcon from '../assets/libraryIcon.png'
 import { useState, useEffect } from 'react'
 import useCounterStore from '../zustand/store'
 
+import AlertCard from '../components/dashboard/AlertCard'
+import dashboardAlertsData from '../assets/data/account/dashboardAlertsData'
+
+const alertItems = dashboardAlertsData.map((item: any) => {
+    return (
+        <AlertCard 
+            key={item.id}
+            {...item}
+        />
+    )
+})
+
 function Dashboard() {
 
     const { count, increment, decrement } = useCounterStore()
@@ -387,67 +399,8 @@ function Dashboard() {
             </div>
             <div className="w-1/4 ml-6 bg-neutral-800 flex flex-col mb-10">
               <h1 className="text-white text-2xl mt-6 ml-4">Alerts</h1>
-              <div className="grid grid-cols-1 gap-3 mx-auto mt-6 mb-2">
-                <Image 
-                    radius="none"
-                    width={290}
-                    alt="Character 1 alerts"
-                    src={Character1}
-                />
-                <Image  
-                    radius="none"
-                    width={290}
-                    alt="Character 1 alerts"
-                    src={Character2}
-                />
-                <Image  
-                    radius="none"
-                    width={290}
-                    alt="Character 1 alerts"
-                    src={Character3}
-                />
-                <Image  
-                    radius="none"
-                    width={290}
-                    alt="Character 1 alerts"
-                    src={Character4}
-                />
-                <Image  
-                    radius="none"
-                    width={290}
-                    alt="Character 1 alerts"
-                    src={Character5}
-                />
-                <Image  
-                    radius="none"
-                    width={290}
-                    alt="Character 1 alerts"
-                    src={Character6}
-                />
-                <Image  
-                    radius="none"
-                    width={290}
-                    alt="Character 1 alerts"
-                    src={Character7}
-                />
-                <Image  
-                    radius="none"
-                    width={290}
-                    alt="Character 1 alerts"
-                    src={Character8}
-                />
-                <Image  
-                    radius="none"
-                    width={290}
-                    alt="Character 1 alerts"
-                    src={Character9}
-                />
-                <Image  
-                    radius="none"
-                    width={290}
-                    alt="Character 1 alerts"
-                    src={Character10}
-                />
+              <div className="flex flex-col gap-3 mx-auto">
+                {alertItems}
               </div>
             </div>
         </div>

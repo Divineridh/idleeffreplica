@@ -7,7 +7,7 @@ function Gods() {
 
     useEffect(() => {
       setGodItems(
-        godsData.map(god => {
+        godsData.map((god: any) => {
             return (
                 <GodCard 
                     key={god.id}
